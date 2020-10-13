@@ -1,0 +1,5 @@
+cdo -selvar,svo -sellonlatbox,-70,30,-34.5,-34.61 /home/daniu/Documentos/datos_rotor_reanalisis_CCMPv2_mensuales/CCMPv2.dv.vor.gaussiangrid.nc /home/daniu/Documentos/mp_datos_windcurl/CCMPv2.dv.vor.gaussiangrid.nc
+
+cdo -selvar,svo -sellonlatbox,-70,30,-34.5,-34.71 /home/daniu/Documentos/datos_rotor_reanalisis_CCMPv2_mensuales/CFSR.dv.vor.gaussiangrid.nc /home/daniu/Documentos/mp_datos_windcurl/CFSR.dv.vor.gaussiangrid.nc
+cdo -selvar,svo -sellonlatbox,-70,30,-34.5,-34.61 /home/daniu/Documentos/datos_rotor_reanalisis_CCMPv2_mensuales/ERAI.dv.vor.gaussiangrid.nc /home/daniu/Documentos/mp_datos_windcurl/ERAI.dv.vor.gaussiangrid.nc
+cdo -selvar,svo -sellonlatbox,-70,30,-34.5,-35.61 /home/daniu/Documentos/datos_rotor_reanalisis_CCMPv2_mensuales/NCEPR1.dv.vor.gaussiangrid.nc /home/daniu/Documentos/mp_datos_windcurl/NCEPR1.dv.vor.gaussiangrid.nc
